@@ -263,6 +263,9 @@ main .hello .image img {
         align-items: start;
         justify-content: center;
     }
+    .about .image {
+        align-items: center;
+    }
 
     .image img {
         width: 50%;
