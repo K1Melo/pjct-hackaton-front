@@ -169,7 +169,7 @@ main .hello .image img {
 .scroll {
     width: 100%;
     position: absolute;
-    bottom: 2%;
+    bottom: 5%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -426,6 +426,19 @@ main .pitch .text {
 main .pitch .text h3 {
     color: #fff;
     font-size: 50px;
+    position: relative;
+    display: inline;
+}
+
+
+main .pitch .text h3::after {
+    content: " ";
+    width: 47%;
+    height: 3px;
+    background-image: linear-gradient(to right, #58256F, #8526FE, #CA57FF);
+    position: absolute;
+    right: 36.8%;
+    bottom: 50%;
 }
 
 main .pitch .text p {
@@ -497,4 +510,81 @@ main .pitch #videoPitch {
     main .pitch .text p {
         font-size: 15px;
     }
+}
+
+
+main .features {
+    width: 100%;
+    height: auto;
+    padding: 5% 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .features .title {
+    width: 100%;
+    text-align: start;
+}
+
+main .features #featuresP {
+    color: #fff;
+    font-size: 50px;
+    margin-left: 10%;
+    position: relative;
+    display: inline;
+}
+
+
+main .features #featuresP::after {
+    content: " ";
+    width: 46%;
+    height: 3px;
+    background-image: linear-gradient(to right, #58256F, #8526FE, #CA57FF);
+    position: absolute;
+    right: 0;
+    bottom: 1%;
+}
+
+main .features .comunits {
+    margin-top: 5%;
+    width: 80%;
+    height: 80vh;
+    display: flex;
+}
+
+main .features .comunits .left {
+    width: 50%;
+}
+
+main .features .comunits .left .text {
+    width: 100%;
+    h3 {
+        font-size: 45px;
+    }
+
+    p {
+        margin-top: 20px;
+        width: 90%;
+        font-size: 20px;
+    }
+}
+
+main .features .comunits .image {
+    width: 50%;
+
+    img {
+        width: 45%;
+        height: auto;
+    }
+
+    .circle {
+        position: absolute;
+        width: 28%;
+        z-index: -1;
+    }
+}
+
+#com1, #com3 {
+    flex-direction: row-reverse;
 }
