@@ -580,7 +580,7 @@ main .features .comunits .image {
 
     .circle {
         position: absolute;
-        width: 28%;
+        width: 25%;
         z-index: -1;
     }
 }
