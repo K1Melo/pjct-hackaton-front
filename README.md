@@ -26,18 +26,10 @@
   🦑 Obrigada por ler até aqui, se você está vendo nosso github é porque tem interesse no projeto, contate nosso grupo:
 </p>
 
-### Link do site: 
+### Link do protótipo: 
 
-<a href="https://k1melo.github.io/pjct-hackaton-front/">Abrir site</a>
-.
-<p align="left">
-  <a href="mailto:essenciacaicara.2308@gmail.com?subject=Tenho uma dúvida sobre o projeto!">
-  <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white" alt"Email"/>
-  </a>
+[![My Skills](https://skillicons.dev/icons?i=figma,theme=dark)](https://www.figma.com/file/ZXBf8qpOWkXx6BTc8lYoVy?type=design)
 
-  <a href="SEU_LINK_DO_TWITTER" alt="Twitter">
-  <img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=flat-square&labelColor=1DA1F2&logo=twitter&logoColor=white" alt="Twitter"/>
-</a>
 
 
   <a href="#" alt="Instagram">
