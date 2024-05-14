@@ -618,7 +618,7 @@ main .features .comunits .image {
 
 @media (max-width: 1024px) and (orientation: landscape) {
     main .features .comunits {
-        margin-top: 2%;
+        margin-top: 4%;
     }
 
     main .features #featuresP {
@@ -763,7 +763,7 @@ main .features .comunits .image {
     position: relative;
     width: 100%;
     height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .contact-page:after {
@@ -852,6 +852,19 @@ main .features .comunits .image {
     .left-ctt {
         display: none;
     }
+
+    .right-ctt {
+        width: 80%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .field {
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -882,6 +895,13 @@ button {
     overflow: hidden;
     transition: all 0.2s;
     cursor: pointer;
+}
+
+@media screen and (max-width: 912px) {
+    button {
+        width: 80%;
+    }
+    
 }
 
 button span {
@@ -996,6 +1016,7 @@ footer {
         font-size: .8em;
     }
 }
+
 @media only screen and (max-width: 330px) {
     .social-icons a i {
         font-size: 1.5em;
