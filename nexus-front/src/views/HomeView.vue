@@ -4,7 +4,9 @@ import Header from '../components/HeaderNexus.vue'
 </script>
 
 <template>
-  <Header />
+  <header>
+    <Header />
+  </header>
   <main>
     <WelcomeNexus />
 
