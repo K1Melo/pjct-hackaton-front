@@ -5,7 +5,7 @@
 - Giovanna Ferreira Cavalcanti [Link do github](https://github.com/Giovanna-Cavalcanti)
 - Kauã Fernandes Souza de Melo [Link do github](https://github.com/K1Melo)
 - Mateus Lima Rodrigues da silva [Link do github](https://github.com/mateuslima0)
-- Udiel Inácio de Oliveira Silva [Link do github](https://github.com/UdielOliveira)
+- Udiel Inácio de Oliveira Silva [Link do github](https://github.com/Udiel-Oliveira)
 
 <img src="imgs/SharkTec.png" min-width="400px" max-width="400px" width="400px" align="right"/>
 
