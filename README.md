@@ -7,7 +7,11 @@
 - Mateus Lima Rodrigues da silva [Link do github](https://github.com/mateuslima0)
 - Udiel Inácio de Oliveira Silva [Link do github](https://github.com/Udiel-Oliveira)
 
+<<<<<<< HEAD
 <img src="imgs/SharkTec.png" min-width="400px" max-width="400px" width="400px" align="right"/>
+=======
+<img src="./nexus-project/src/assets/sharktec_logo" min-width="400px" max-width="400px" width="400px" align="right"/>
+>>>>>>> a995bc4e3b3e9ebf4176a99b89a8c24e8392010b
 
 <p width="300px" align="left"> 
   O grupo <strong>@SharkTec</strong> é composto por alunos da ETEC de Carapicuíba, o trabalho que estamos desenvolvendo é mentorado pelo professor Wesley Castanha de Lima, e será voltado para ser apresentado no pitch e prototipação inicial do 7° Hackaton acadêmico do Robótica Paula Souza.<br><br>
