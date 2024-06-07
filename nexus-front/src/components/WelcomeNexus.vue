@@ -29,7 +29,7 @@
 .welcome {
     width: 50%;
     margin: 0 auto;
-    margin-top: 3%;
+    margin-top: 5%;
     text-align: center;
     position: relative;
 
@@ -43,6 +43,7 @@
 h1 {
     font-weight: 700;
     font-size: 120px;
+    margin: 10px 0;
 }
 
 #slogan {
@@ -111,5 +112,129 @@ h1 {
     }
 }
 
-@media only screen and (max-width: 1025) and (orientation: portrait) {}
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
+    .welcome {
+        width: 100%;
+        margin-top: 15%;
+    }
+
+    #team {
+        font-size: 25px;
+    }
+
+    h1 {
+        font-size: 130px;
+        margin: 20px 0;
+    }
+
+    #slogan {
+        font-size: 50px;
+        width: 60%;
+    }
+
+    .cellphone {
+        width: 45%;
+    }
+
+    #tela-entrar {
+        margin: auto;
+        left: 0;
+        right: 0;
+    }
+
+    #tela-perfil {
+        display: none;
+    }
+
+    #tela-wikis {
+        display: none;
+    }
+
+    #tela-comunidades {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 912px) and (orientation: portrait) {
+
+    h1 {
+        font-size: 120px;
+    }
+
+    #slogan {
+        font-size: 45px;
+    }
+
+
+    #tela-entrar {
+        bottom: -25%;
+    }
+}
+
+@media only screen and (max-width: 712px) and (orientation: portrait) {
+
+    h1 {
+        font-size: 100px;
+        margin: 5px 0;
+    }
+
+    #slogan {
+        font-size: 40px;
+        width: 90%;
+    }
+
+
+    #tela-entrar {
+        bottom: -25%;
+    }
+}
+
+@media only screen and (max-width: 540px) and (orientation: portrait) {
+
+    #team {
+        font-size: 22px;
+    }
+
+    h1 {
+        font-size: 90px;
+    }
+
+    #slogan {
+        font-size: 30px;
+    }
+
+
+    #tela-entrar {
+        bottom: -22%;
+    }
+}
+
+@media only screen and (max-width: 450px) and (orientation: portrait) {
+    .welcome {
+        width: 100%;
+        margin-top: 25%;
+    }
+
+    #team {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 80px;
+    }
+
+    #slogan {
+        font-size: 28px;
+    }
+
+    .cellphone {
+        position: absolute;
+        width: 52%;
+        height: auto;
+    }
+
+    #tela-entrar {
+        bottom: -12%;
+    }
+}
 </style>
