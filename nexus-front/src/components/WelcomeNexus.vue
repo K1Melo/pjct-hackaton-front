@@ -9,13 +9,14 @@
             <h1>Nexus</h1>
             <p id="slogan">Uma plataforma que une os estudantes</p>
         </section>
-        <img src="../assets/imgs/tela_entrar.png" alt="tela de cadastro do aplicativo" class="cellphone"
-            id="tela-entrar">
+        <img src="../assets/imgs/tela_posts.png" alt="tela de postagens do aplicativo" class="cellphone"
+            id="tela-posts">
         <img src="../assets/imgs/tela_comunidades.png" alt="tela de cadastro do aplicativo" class="cellphone"
             id="tela-comunidades">
         <img src="../assets/imgs/tela_wikis.png" alt="tela de cadastro do aplicativo" class="cellphone" id="tela-wikis">
         <img src="../assets/imgs/tela_perfil.png" alt="tela de cadastro do aplicativo" class="cellphone"
             id="tela-perfil">
+        <div class="blur"></div>
     </section>
 </template>
 
@@ -26,13 +27,19 @@
     position: relative;
 }
 
+.blur {
+    position: absolute;
+    box-shadow: 0 10px 100px 100px rgba(0, 0, 0, 0.932);
+    bottom: 0;
+    width: 100%;
+}
+
 .welcome {
     width: 50%;
     margin: 0 auto;
     margin-top: 5%;
     text-align: center;
     position: relative;
-
 }
 
 #team {
@@ -44,7 +51,20 @@ h1 {
     font-weight: 700;
     font-size: 120px;
     margin: 10px 0;
+    position: relative;
+    display: inline;
 }
+
+h1::after {
+    content: " ";
+    width: 140px;
+    height: 4px;
+    background-image: linear-gradient(to right, #58256F, #8526FE, #CA57FF);
+    position: absolute;
+    left: 62%;
+    bottom: 12%;
+}
+
 
 #slogan {
     font-weight: 200;
@@ -57,26 +77,29 @@ h1 {
     position: absolute;
     width: calc(100vw - 81%);
     height: auto;
+    z-index: -1;
 }
 
-#tela-entrar {
-    bottom: calc(-30% + 2vh);
-    left: 8%;
+#tela-posts {
+
+    bottom: calc(-50% + 5vh);
+    left: 29%;
 }
 
 #tela-perfil {
-    bottom: calc(-30% + 2vh);
-    right: 8%;
+
+    bottom: calc(-50% + 5vh);
+    right: 29%;
 }
 
 #tela-wikis {
-    bottom: calc(-50% + 5vh);
-    right: 30%;
+    bottom: calc(-30% + 2vh);
+    right: 6%;
 }
 
 #tela-comunidades {
-    bottom: calc(-50% + 5vh);
-    left: 30%;
+    bottom: calc(-30% + 2vh);
+    left: 6%;
 }
 
 @media only screen and (max-width: 1290px) and (orientation: landscape) {
@@ -127,6 +150,16 @@ h1 {
         margin: 20px 0;
     }
 
+    h1::after {
+        content: " ";
+        width: 155px;
+        height: 4px;
+        background-image: linear-gradient(to right, #58256F, #8526FE, #CA57FF);
+        position: absolute;
+        left: 62%;
+        bottom: 11%;
+    }
+
     #slogan {
         font-size: 50px;
         width: 60%;
@@ -136,10 +169,8 @@ h1 {
         width: 45%;
     }
 
-    #tela-entrar {
-        margin: auto;
-        left: 0;
-        right: 0;
+    #tela-posts {
+        display: none
     }
 
     #tela-perfil {
@@ -151,7 +182,9 @@ h1 {
     }
 
     #tela-comunidades {
-        display: none;
+        margin: auto;
+        left: 0;
+        right: 0;
     }
 }
 
@@ -161,12 +194,23 @@ h1 {
         font-size: 120px;
     }
 
+
+    h1::after {
+        content: " ";
+        width: 140px;
+        height: 4px;
+        background-image: linear-gradient(to right, #58256F, #8526FE, #CA57FF);
+        position: absolute;
+        left: 62%;
+        bottom: 10%;
+    }
+
     #slogan {
         font-size: 45px;
     }
 
 
-    #tela-entrar {
+    #tela-comunidades {
         bottom: -25%;
     }
 }
@@ -178,14 +222,20 @@ h1 {
         margin: 5px 0;
     }
 
+
+    h1::after {
+        content: " ";
+        width: 118px;
+        height: 3px;
+        background-image: linear-gradient(to right, #58256F, #8526FE, #CA57FF);
+        position: absolute;
+        left: 62%;
+        bottom: 11%;
+    }
+
     #slogan {
         font-size: 40px;
         width: 90%;
-    }
-
-
-    #tela-entrar {
-        bottom: -25%;
     }
 }
 
@@ -199,12 +249,23 @@ h1 {
         font-size: 90px;
     }
 
+
+    h1::after {
+        content: " ";
+        width: 105px;
+        height: 3px;
+        background-image: linear-gradient(to right, #58256F, #8526FE, #CA57FF);
+        position: absolute;
+        left: 62%;
+        bottom: 11%;
+    }
+
     #slogan {
         font-size: 30px;
     }
 
 
-    #tela-entrar {
+    #tela-comunidades {
         bottom: -22%;
     }
 }
@@ -223,6 +284,17 @@ h1 {
         font-size: 80px;
     }
 
+
+    h1::after {
+        content: " ";
+        width: 95px;
+        height: 2px;
+        background-image: linear-gradient(to right, #58256F, #8526FE, #CA57FF);
+        position: absolute;
+        left: 62%;
+        bottom: 11%;
+    }
+
     #slogan {
         font-size: 28px;
     }
@@ -233,7 +305,7 @@ h1 {
         height: auto;
     }
 
-    #tela-entrar {
+    #tela-comunidades {
         bottom: -12%;
     }
 }
