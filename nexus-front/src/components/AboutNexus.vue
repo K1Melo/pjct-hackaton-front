@@ -20,5 +20,16 @@
         <div class="container">
             <img src="../assets/imgs/moockup_about.png" alt="tela de cadastro" class="image">
         </div>
+        <div class="blur"></div>
     </section>
 </template>
+
+<style scoped>
+.blur {
+    position: absolute;
+    box-shadow: 0 10px 50px 20px rgba(0, 0, 0, 0.932);
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+</style>
