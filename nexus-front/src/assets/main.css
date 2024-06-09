@@ -32,6 +32,7 @@ main {
 
 .informations {
     width: 80%;
+    z-index: 1;
 }
 
 .item {
@@ -75,6 +76,7 @@ main {
 @media only screen and (max-width: 1290px) and (orientation: landscape) {
     .informations {
         width: 85%;
+        
     }
 
     .title {
@@ -86,8 +88,12 @@ main {
         font-size: 25px;
     }
 
-    .image, .circle {
+    .image {
         width: 65%;
+    }
+
+    .circle {
+        width: 30%;
     }
 }
 
