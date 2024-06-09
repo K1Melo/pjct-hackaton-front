@@ -1,5 +1,5 @@
 <template>
-    <section class="about">
+    <section class="global-container">
         <div class="container">
             <div class="informations">
                 <p class="item">01. <span style="color: #8526FE;" class="item">Sobre</span></p>
@@ -22,10 +22,3 @@
         </div>
     </section>
 </template>
-
-<style scoped>
-.about {
-    height: 100vh;
-    display: flex
-}
-</style>
