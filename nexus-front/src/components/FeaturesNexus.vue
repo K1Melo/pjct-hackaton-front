@@ -7,7 +7,7 @@
         </div>
         <div class="container">
             <div class="informations">
-                <h3 class="title">Descubra comunidades</h3>
+                <h3 class="title">Descubra Comunidades</h3>
                 <p class="text">Explore e participe de diversas comunidades no Nexus, assim personalizando sua própria
                     experiência de aprendizado! Para saber mais sobre a aba de comunidades acesse 👇</p>
                 <div class="wrapper">
@@ -22,7 +22,7 @@
     <section class="global-container">
         <div class="container">
             <div class="informations">
-                <h3 class="title">Faça Posts e Perguntas</h3>
+                <h3 class="title">Faça Posts E Perguntas</h3>
                 <p class="text">Participe do mundo do conhecimento em nossas abas posts e perguntas, aqui, os usuários
                     têm a oportunidade de se interagir de forma mais próxima, garantindo incríveis chances para networks
                     entre os usuários, para saber mais, acesse 👇 </p>
@@ -61,7 +61,7 @@
     <section class="global-container">
         <div class="container">
             <div class="informations">
-                <h3 class="title">Monte seu Perfil</h3>
+                <h3 class="title">Monte Seu Perfil</h3>
                 <p class="text">Mostre quem você realmente é, o que estuda e tudo que você achar condizente, aqui também
                     fica guardado todas suas contribuições e seus pontos. Para saber mais sobre a aba de perfil, acesse
                     👇</p>

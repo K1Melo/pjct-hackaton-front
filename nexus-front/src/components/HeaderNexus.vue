@@ -5,10 +5,10 @@
         <img src="../assets/imgs/small_logo.png" alt="">
         <h2>Nexus</h2>
         <ul id="nav-bar">
-            <li class="links" id="sobre">Sobre</li>
-            <li class="links" id="pitch">Pitch</li>
-            <li class="links" id="ferramentas">Ferramentas</li>
-            <li class="links" id="contato">Contato</li>
+            <li class="links" id="sobre" @click="goTo(1)">Sobre</li>
+            <li class="links" id="pitch" @click="goTo(2)">Pitch</li>
+            <li class="links" id="ferramentas" @click="goTo(3)">Ferramentas</li>
+            <li class="links" id="equipe" @click="goTo(7)">Equipe</li>
         </ul>
         <i class="material-symbols-outlined" id="menu" @click="openNav">
             menu
@@ -29,6 +29,9 @@ export default {
             } else {
                 menuIcon.innerHTML = '<i class="material-symbols-outlined" id="menu" @click="openNav">menu</i>'
             }
+        },
+        goTo(index) {
+            window.scroll({ top: innerHeight * index, behavior: "smooth" })
         }
     }
 }
