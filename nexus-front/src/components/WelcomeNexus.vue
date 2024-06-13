@@ -108,7 +108,7 @@ h1::after {
         width: calc(100vw - 82%);
     }
 
-    #tela-entrar {
+    #tela-posts {
         bottom: calc(-25% + 2vh);
         left: 8%;
     }

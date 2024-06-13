@@ -1,7 +1,8 @@
 <template>
     <section class="whoWeAre">
         <div class="imgBackground">
-            <h2>SHARKTEC</h2>
+            <!-- <h2>SHARKTEC 🦈</h2> -->
+            <img src="../assets/imgs/sharktec_banner.png" alt="">
         </div>
         <div class="participantsCards">
             <div class="card">
@@ -33,7 +34,7 @@
                 <div class="informations">
                     <div class="left">
                         <h3>Mateus Lima Rodrigues da Silva</h3>
-                        <p>Documentador - idealizador</p>
+                        <p>Nada</p>
                     </div>
                 </div>
             </div>
@@ -55,7 +56,7 @@
 <style scoped>
 .imgBackground {
     height: 300px;
-    background-image: url("../assets/imgs/background.jpg");
+    background-image: url("../assets/imgs/Banner-Prototype.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -67,9 +68,8 @@
     justify-content: center;
     flex-direction: column;
 
-    h2 {
-        font-size: 90px;
-        font-weight: 700;
+    img {
+        width: 50%;
     }
 }
 
@@ -101,7 +101,6 @@
             background-color: rgba(0, 0, 0, 0);
 
             .img {
-                cursor: pointer;
                 overflow: hidden;
                 display: flex;
                 align-items: center;
@@ -157,8 +156,8 @@
     .imgBackground {
         height: 280px;
 
-        h2 {
-            font-size: 80px;
+        img {
+            width: 55%;
         }
     }
 
@@ -241,8 +240,8 @@
     .imgBackground {
         height: 250px;
 
-        h2 {
-            font-size: 70px;
+        img {
+            width: 60%;
         }
     }
 
@@ -285,8 +284,8 @@
     .imgBackground {
         height: 200px;
 
-        h2 {
-            font-size: 60px;
+        img {
+            width: 65%;
         }
     }
 
@@ -318,8 +317,8 @@
     .imgBackground {
         height: 200px;
 
-        h2 {
-            font-size: 50px;
+        img {
+            width: 70%;
         }
     }
 
