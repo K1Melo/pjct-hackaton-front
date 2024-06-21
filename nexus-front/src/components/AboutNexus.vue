@@ -10,9 +10,9 @@
                     amanhã. Aqui, a troca de conhecimento é o alicerce para a construção de um futuro mais plural e
                     democratico.</p>
                 <div class="wrapper">
-                    <button class="btn">
+                    <button class="btn" @click="open('https://github.com/K1Melo/pjct-nexus')">
                         <p class="btnText">
-                            Baixar APK</p>
+                            GitHub</p>
                     </button>
                 </div>
             </div>
@@ -23,6 +23,17 @@
         <div class="blur"></div>
     </section>
 </template>
+
+<script>
+export default {
+    name: 'HeaderNexus',
+    methods: {
+        open(url) {
+            window.open(url, '_blank')
+        }
+    }
+}
+</script>
 
 <style scoped>
 .blur {

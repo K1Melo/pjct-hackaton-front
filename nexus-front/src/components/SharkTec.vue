@@ -28,7 +28,7 @@
                 </div>
             </div>
             <div class="card">
-                <div class="img" style="align-items: start;">
+                <div class="img">
                     <img src="../assets/imgs/team/lima_img.jpeg" alt="" id="lima" class="cardsImg">
                 </div>
                 <div class="informations">

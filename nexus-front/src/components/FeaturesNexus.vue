@@ -9,13 +9,13 @@
             <div class="informations">
                 <h3 class="title">Descubra Comunidades</h3>
                 <p class="text">Explore e participe de diversas comunidades no Nexus, assim personalizando sua própria
-                    experiência de aprendizado! Para saber mais sobre a aba de comunidades acesse 👇</p>
-                <div class="wrapper">
+                    experiência de aprendizado!</p>
+                <!-- <div class="wrapper">
                     <button class="btn">
                         <p class="btnText">
                             Comunidades</p>
                     </button>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -25,13 +25,13 @@
                 <h3 class="title">Faça Posts E Perguntas</h3>
                 <p class="text">Participe do mundo do conhecimento em nossas abas posts e perguntas, aqui, os usuários
                     têm a oportunidade de se interagir de forma mais próxima, garantindo incríveis chances para networks
-                    entre os usuários, para saber mais, acesse 👇 </p>
-                <div class="wrapper">
+                    entre os usuários.</p>
+                <!-- <div class="wrapper">
                     <button class="btn">
                         <p class="btnText">
                             Posts e Perguntas</p>
                     </button>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="container">
@@ -47,14 +47,13 @@
             <div class="informations">
                 <h3 class="title">Leia Wikis</h3>
                 <p class="text">Explore um universo de conhecimento ilimitado com as Wikis do Nexus. Descubra, crie e
-                    contribua para as Wikis sobre os assuntos que mais te inspiram. Para saber mais sobre essa página,
-                    acesse 👇</p>
-                <div class="wrapper">
+                    contribua para as Wikis sobre os assuntos que mais te inspiram.</p>
+                <!-- <div class="wrapper">
                     <button class="btn">
                         <p class="btnText">
                             Wikis</p>
                     </button>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -63,14 +62,13 @@
             <div class="informations">
                 <h3 class="title">Monte Seu Perfil</h3>
                 <p class="text">Mostre quem você realmente é, o que estuda e tudo que você achar condizente, aqui também
-                    fica guardado todas suas contribuições e seus pontos. Para saber mais sobre a aba de perfil, acesse
-                    👇</p>
-                <div class="wrapper">
+                    fica guardado todas suas contribuições e seus pontos.</p>
+                <!-- <div class="wrapper">
                     <button class="btn">
                         <p class="btnText">
                             Perfil</p>
                     </button>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="container">
