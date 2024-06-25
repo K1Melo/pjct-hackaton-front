@@ -34,7 +34,7 @@
                 <div class="informations">
                     <div class="left">
                         <h3>Mateus Lima Rodrigues da Silva</h3>
-                        <p>Nada</p>
+                        <p>Idealizador - Administrativo</p>
                     </div>
                 </div>
             </div>
