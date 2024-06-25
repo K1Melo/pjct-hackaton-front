@@ -1,7 +1,7 @@
 <template>
     <footer>
 
-        <div class="social-icons">
+        <!-- <div class="social-icons">
             <a href="https://github.com/K1Melo/pjct-hackaton-front" target="_blank"><i class="fa-solid fa-file"
                     id="docs"></i></a>
             <p>/</p>
@@ -13,7 +13,7 @@
             <p>/</p>
             <a href="https://github.com/K1Melo/pjct-hackaton-front" target="_blank"><i class="fa-brands fa-github"
                     id="github"></i></a>
-        </div>
+        </div> -->
         <div class="footer-bottom">
             <p>© 2024 SHARKTEC</p>
         </div>
